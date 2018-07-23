@@ -1,0 +1,47 @@
+@media only screen and (max-width: 768px) {
+
+    .topnav li:not(:last-child) {
+        display: none;
+    }
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+    nav ul li:last-child {
+        display: block;
+        order: -1;
+    }
+    .topnav.responsive {
+        position: relative;
+        transition: all .3s;
+    }
+    .topnav.responsive li {
+        background-color: #fff;
+        display: block;
+    }
+    .topnav.responsive li:not(:last-child):hover {
+        background-color: rgba(34, 34, 34, 0.98);
+    }
+    nav ul.responsive {
+        float: none;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.98);
+        padding: 0 0 10px 0;
+    }
+    nav ul li a:after {
+        display: none;
+    }
+    nav ul.responsive li a:after {
+        display: none;
+    }}
+
+@media only screen and (max-width: 643px){
+    .contact_adress li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: .7em;
+}
+
+}
