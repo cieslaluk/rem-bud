@@ -35,13 +35,37 @@
     }
     nav ul.responsive li a:after {
         display: none;
-    }}
-
-@media only screen and (max-width: 643px){
-    .contact_adress li a {
-    text-decoration: none;
-    color: #fff;
-    font-size: .7em;
+    }
 }
+
+@media only screen and (max-width: 643px) {
+    .contact_adress li a {
+        text-decoration: none;
+        color: #fff;
+        font-size: .7em;
+    }
+
+}
+
+@media only screen and (max-width: 497px) {
+    
+    .top_header_area a {
+        text-decoration: none;
+        color: #fff;
+        font-size: .8em;
+    }
+    
+    #hours {
+        font-size: .8em;
+    }
+
+}
+
+@media only screen and (max-width: 415px) {
+    
+    .responsive_icon {
+       padding: 3px;
+    }
+   
 
 }
