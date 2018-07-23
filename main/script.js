@@ -47,6 +47,7 @@ if ($('#back-to-top').length) {
     });
 }
 
+
 $(document).ready(function () {
 
     $('a[href^="#"]').on('click', function (event) {
