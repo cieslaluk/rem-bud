@@ -6,6 +6,8 @@
     .topnav a.icon {
         float: right;
         display: block;
+        padding: 0;
+        margin: 0;
     }
     nav ul li:last-child {
         display: block;
@@ -14,10 +16,12 @@
     .topnav.responsive {
         position: relative;
         transition: all .3s;
+        padding: 0;
     }
     .topnav.responsive li {
         background-color: #fff;
         display: block;
+        margin: 0;
     }
     .topnav.responsive li:not(:last-child):hover {
         background-color: rgba(34, 34, 34, 0.98);
@@ -48,13 +52,13 @@
 }
 
 @media only screen and (max-width: 497px) {
-    
+
     .top_header_area a {
         text-decoration: none;
         color: #fff;
         font-size: .8em;
     }
-    
+
     #hours {
         font-size: .8em;
     }
@@ -62,10 +66,23 @@
 }
 
 @media only screen and (max-width: 415px) {
-    
+
     .responsive_icon {
-       padding: 3px;
+        padding: 1px;
     }
-   
+    .top_header_area {
+        font-size: 14px;
+    }
 
 }
+
+/*@media only screen and (max-width: 339px) {
+
+    .responsive_icon {
+        padding: 1px;
+    }
+    .top_header_area {
+        font-size: 14px;
+    }
+
+}*/
