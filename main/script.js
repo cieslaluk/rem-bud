@@ -62,3 +62,27 @@ $(document).ready(function () {
         }
     });
 });
+
+$(document).ready(function () {
+
+    $('#about_us').css('opacity', 0);
+
+    $('#about_us').waypoint(function () {
+        $('#about_us').addClass('fadeIn');
+    }, {
+        offset: '50%'
+    });
+
+});
+
+$(document).ready(function () {
+
+    $('#pro').css('opacity', 0);
+
+    $('#pro').waypoint(function () {
+        $('#pro').addClass('fadeIn');
+    }, {
+        offset: '50%'
+    });
+
+});
