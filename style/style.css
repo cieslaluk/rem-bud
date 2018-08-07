@@ -88,6 +88,11 @@ nav {
     z-index: 999;
     font-weight: 300;
     transition: top 0.3s;
+
+}
+
+.scrollUp {
+    transform: translateY(-80px);
 }
 
 
@@ -186,23 +191,7 @@ nav.scrolling {
     height: 2000px;
 }
 
-@keyframes fadein {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-}
 
-.fadeIn {
-    animation: fadein;
-}
-
-.animated {
-    animation-duration: 1s;
-    animation-fill-mode: both;
-}
 
 .professional {
     display: -webkit-box;
@@ -318,8 +307,6 @@ p.text {
     position: relative;
 }
 
-
-
 .btn:hover {
     color: #fff;
     background-color: #222;
@@ -331,6 +318,15 @@ p.text {
     height: auto;
 }
 
+#features {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.features_content {
+    flex: 1;
+}
 
 
 #contact {
@@ -449,4 +445,22 @@ p.text {
 
 .contact_mail {
     font-size: 0.9em;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.fadeIn {
+    animation: fadein;
+}
+
+.animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
 }
