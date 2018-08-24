@@ -464,3 +464,12 @@ p.text {
     animation-duration: 1s;
     animation-fill-mode: both;
 }
+
+footer {
+    height: 25px;
+    margin: 0;
+    display: flex;
+    background-color: #0a1013;
+    justify-content: center;
+    color: #fff;
+}
